@@ -1,0 +1,183 @@
+.background {
+    /* background: url(images/IMG_1000.jpg) */
+    /* no-repeat center center fixed; */
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    /* background-size:100vw 100vh; */
+    height: 100%;
+}
+
+input[type=button] {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: 0 none;
+}
+
+.uploadNewPhoto {
+    top: 563px;
+    left: 10px;
+    position: absolute;
+}
+
+.switchTime {
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.js-form {
+    /* width: 100%; */
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.js-todo-input {
+    top: 522px;
+    left: 962px;
+    width: 300px;
+    padding: 5px 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: absolute;
+}
+
+.js-todo-list {
+    padding: 10px 5px 5px 15px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    display: inline-block;
+    /* width: 300px; */
+    /* margin: 0px 0px 0px; */
+    justify-content: left;
+}
+
+.todo-list{
+    top: 257px;
+    left: 962px;
+    /* display: inline-block; */
+    height: 260px;
+    width: 300px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+
+.todo-item {
+    /* display: inline-block; */
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-bottom: 2px;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+  
+.todo-item span {
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.tick {
+    position: relative; 
+    top: 5px;
+  }
+  
+  .done span {
+    text-decoration: line-through;
+  }
+
+.delete-todo {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+  }
+
+.delete-todo svg {
+    width: 10px;
+    height: 10px;
+    pointer-events: none;
+}
+
+.inputBox {
+    border: none;
+    border-bottom: 2px solid white;
+    /* padding: 2px 5px; */
+    background: transparent;
+    cursor: text;
+    text-align: center;
+    width: 400px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 600;
+}
+
+.inputName {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 600;
+}
+
+.center {
+    display: block;
+    flex-direction: row;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    line-height: 60px;
+    /* background-color: rgb(105, 105, 105, 0.5); */
+}
+
+.bottom {
+    display: block;
+    flex-direction: row;
+    position: absolute;
+}
+
+.top {
+    display: block;
+    flex-direction: row;
+    position: absolute;
+}
+
+.checklist {
+    position: fixed;
+    top: 92%;
+    left: 92%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 7px;
+    border: 0 none;
+}
+
+.time {
+    font-size: 75px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 600;
+}
+
+.greeting {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 600;
+}
